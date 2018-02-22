@@ -47,7 +47,7 @@
             
             <br/>
             
-            <buttontype="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
         </form>
          
