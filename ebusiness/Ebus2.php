@@ -11,6 +11,7 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     
     <body>
@@ -37,11 +38,10 @@ session_start();
             
             <button onClick="validateDetails()"> Validate </button>
         
-        <script type="text/javascript" src="ebus2_validator.js"></script>
         
          <?php
         // Set session variables
-        $$_SESSION["total"] = $_POST["total"];
+        $_SESSION["total"] = $_POST["total"];
         ?>
         
         

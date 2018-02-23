@@ -24,9 +24,9 @@ function display(parm1){
 
 
 function enablebtnProceed(){
-    $('btnProceed').prop('disabled', true)
+    $('#btnProceed').prop('disabled', false);
 }
 
 function disablebtnProceed(){
-    $('btnProceed').prop('disabled', true)
+    $('#btnProceed').prop('disabled', true);
 }
