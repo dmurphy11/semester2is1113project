@@ -11,12 +11,23 @@
     
     <body>
         
-            <h4>Select a Product</h4>
+            <h2 align="center">Select a Product</h2>
             
-            <br/>
             
             <form method="POST" action="Ebus2.php">
               
+              First Name:<br/>
+              <input type="text" name="firstname">
+              
+              <br/>
+              Surname:<br/>
+              <input type="text" name="surname">
+              
+              <br/>
+              Email Address:<br/>
+              <input type="text" name="email" size="30">
+              
+              <br/>
               <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
@@ -38,6 +49,11 @@
               </label>
               
               <br/>
+              <label for="VAT">
+              VAT (10%):
+                <input type="text" id="VAT" value="0.00" readonly/>
+              </label>
+              <br/>
               
               <label for="total">
                 Total
@@ -45,13 +61,16 @@
               </label>
     
               <br/>
-              
+              <br/>
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
             
             <br/>
             <button onClick="calcSub()">Calculate Cost</button>
+            <button onClick="calcDisVatTotal()">Calculate VAT</button>
+            
+            
             <a role="button" href="Ebus1.php">Clear Choice</a>
     
     </body>
