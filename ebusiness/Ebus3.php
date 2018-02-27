@@ -9,17 +9,12 @@ session_start();
     <body>
         <h4>RECEIPT</h4>
         
-         <?php  
-        // Set session variables
-          $_SESSION["firstname"] = $_POST["firstname"];
-          $_SESSION["surname"] = $_POST["surname"];
-          $_SESSION["email"] = $_POST["email"];
-        ?>
+         
         
         <p>
             <?php
             // Echo session variables that were set on the previous pages
-            echo "Name: " . $_SESSION["firstname"] . ["surname"] . ".";
+            echo "Name: " . $_SESSION["firstname"] . " " . $_SESSION["surname"] . ".";
             ?>
         </p>
         <br/>
