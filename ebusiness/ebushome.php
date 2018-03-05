@@ -32,8 +32,8 @@ a:hover, a:active {
          <br/>
          
          <center>
-             <a href="ebusiness/Ebus1.php">Products and Rates!</a>
-             <a href="homepage.html">Home</a>
+             <a href="Ebus1.php">Products and Rates!</a>
+             <a href="../homepage.html">Home</a>
          </center>
     </body>
 </html>
