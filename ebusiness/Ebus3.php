@@ -10,23 +10,21 @@ session_start();
         <center><h4>RECEIPT</h4></center>
         
          
+        
         <center>
-        <p>
             <?php
             // Echo session variables that were set on the previous pages
             echo "Name: " . $_SESSION["firstname"] . " " . $_SESSION["surname"] . ".";
             ?>
-        </p>
         </center>
+        
         <br/>
         
         <center>
-        <p>
             <?php
             // Echo session variables that were set on the previous pages
             echo "Email: " . $_SESSION["email"] . ".";
             ?>
-        </p>
         </center>
         <br/>
         
