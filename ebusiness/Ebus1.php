@@ -11,7 +11,7 @@
     
     <body>
         
-            <h2 align="center">Select a Product</h2>
+            <h2>Select a Product</h2>
             
             
             <form method="POST" action="Ebus2.php">
