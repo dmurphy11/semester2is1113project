@@ -6,6 +6,8 @@ function validateDetails(){
     
     pin = document.getElementById("user_pin").value;
     
+    
+    // Error handling regarding pin entry
     if (pin == ""){
         alert("Please enter your PIN");
     }
@@ -18,10 +20,11 @@ function validateDetails(){
     
 }
 
-function enablebtnPurchase(){
+          //Once pin is validated enable Purchase button
+     function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled', false);
 }
 
-function disablebtnPurchase() {
+     function disablebtnPurchase() {
     $('#btnPurchase').prop('disabled', true);
 }

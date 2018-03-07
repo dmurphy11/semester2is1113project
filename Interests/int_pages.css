@@ -1,13 +1,13 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    background-image: url("../images/london.jpeg");
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background-image: url("../images/boston.jpg");
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background-image: url(../images/courtmacsherry.jpeg);
 }
 
 .section{

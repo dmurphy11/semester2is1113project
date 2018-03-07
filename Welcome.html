@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8"/>
+        
+        <!-- Styling hyperlinks-->
         <style>
+        h1 {
+            text-align: center;
+        }
         a:link, a:visited {
     background-color: white;
     color: black;
@@ -10,6 +16,14 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a:hover, a:active {
@@ -21,17 +35,12 @@ a:hover, a:active {
            <title>Welcome Page</title>
     </head>
           <body>
-         <h1 class="mainheading">
-             color= #ee0000 W
-             color= #ff7700 e
-             color= #eeee00 l
-             color= #00bb00 c
-             color= #0000ee o
-             color= #dd00dd m
-             color= #880088 e
-             color= #ee0000 !
+              <!-- Heading-->
+         <h1 style="color:#f4427d" class="mainheading">
+            Welcome!
          </h1>
          
+         <!-- A bit about myself-->
          <p style="font-size:20px; font-family:arial;">My name is David Murphy, and I am  first year student in University College Cork, 
          studying BIS. I am enjoying the course very much, and I am very happy I chose BIS, 
          having had small doubts before entering the course last September. At school Accounting 
@@ -41,11 +50,14 @@ a:hover, a:active {
          exploring my project as much as I enjoyed developing it!</p>
          
          <br/>
+         <!-- Picture of myself-->
          <img src="images/personal.jpeg" style="width:300px;height:400px;" alt="myself">
          <br/>
+         <!-- Link to CV page1-->
          <a href="CV/cv_page1.html">Curriculum Vitae</a>
-         
-          <a href="../homepage.html" >Home</a>
+         &nbsp; &nbsp;
+         <!-- Link to homepage-->
+          <a href="../homepage.html">Home</a>
          
          </body>
        

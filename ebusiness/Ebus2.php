@@ -3,8 +3,9 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8"/>
         <title>Enter Details</title>
         
         <!--jQuery-->
@@ -19,6 +20,7 @@ session_start();
 
                     <label for="user_pin">PIN</label>
                     
+                    <!-- Refine pin digits to 4 -->
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4" size="6">
 
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
@@ -26,6 +28,7 @@ session_start();
             </form>
             
             <br/>
+            <!-- Validate button-->
             <button onClick="validateDetails()">Validate</button>
             
             <?php
